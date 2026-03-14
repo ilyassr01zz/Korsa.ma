@@ -7,15 +7,7 @@ The goal of Korsa is to replace informal booking methods with a **simple, reliab
 
 ---
 
-## 🌐 Live Demo
-
-Add your deployed link here:
-
-```
-https://korsa-demo.vercel.app
-```
-
----
+## 🔗 [Live Demo](https://korsa-ma.vercel.app/)
 
 ## ✨ Features
 
@@ -56,71 +48,6 @@ Passengers can leave **reviews and ratings**, helping build trust and maintain s
 - **Database:** SQLite
 - **ORM:** Prisma
 - **Validation:** Zod
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/korsa.git
-cd korsa
-```
-
-### 2. Install dependencies
-
-Frontend:
-
-```bash
-npm install
-```
-
-Backend:
-
-```bash
-cd server
-npm install
-```
-
----
-
-### 3. Setup the database
-
-Initialize the database using Prisma:
-
-```bash
-npx prisma migrate dev
-```
-
----
-
-### 4. Run the project
-
-Start the frontend:
-
-```bash
-npm run dev
-```
-
-Frontend runs on:
-
-```
-http://localhost:3000
-```
-
-Start the backend:
-
-```bash
-cd server
-npm run dev
-```
-
-Backend runs on:
-
-```
-http://localhost:5000
-```
 
 ---
 
