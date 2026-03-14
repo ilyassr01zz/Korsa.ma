@@ -12,7 +12,7 @@ The goal of Korsa is to replace informal booking methods with a **simple, reliab
 Add your deployed link here:
 
 ```
-https://korsa-demo.vercel.app
+https://korsa-ma.vercel.app/
 ```
 
 ---
