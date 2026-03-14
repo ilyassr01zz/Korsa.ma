@@ -13,7 +13,6 @@ const PRICING_CONFIG: PricingConfig = {
   passengerMultiplier: 1, // For grand taxi (shared), this would be shared cost
 };
 
-// Distance matrix (simplified - in production, use Google Maps API)
 const DISTANCE_MATRIX: Record<string, Record<string, number>> = {
   'Casablanca': { 'Marrakech': 248, 'Fes': 472, 'Tangier': 614, 'Rabat': 91, 'Agadir': 508 },
   'Marrakech': { 'Casablanca': 248, 'Agadir': 264, 'Fes': 472, 'Essaouira': 160 },

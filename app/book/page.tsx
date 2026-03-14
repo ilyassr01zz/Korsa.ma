@@ -66,7 +66,6 @@ export default function BookPage() {
       setLoading(true)
       setError("")
       
-      // Call pricing API - we'll calculate on frontend for now
       const response = await fetch('/api/pricing', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
