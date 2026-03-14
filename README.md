@@ -1,43 +1,142 @@
-🚖 Korsa
-Korsa is a full-stack booking platform designed to modernize intercity travel in Morocco. It streamlines the process of finding and booking grand taxis, providing a digital bridge between passengers and drivers.
+# 🚖 Korsa
 
-🔗 Live Demo (Update this link if you have one)
-✨ Core Features
-Multi-step Booking Flow: An intuitive interface for route selection and passenger details.
+**Korsa** is a full-stack booking platform designed to modernize **intercity travel in Morocco**.  
+It simplifies the process of finding and booking **grand taxis**, creating a digital bridge between passengers and drivers.
 
-Dynamic Price Estimation: Instant quotes based on intercity routes.
+The goal of Korsa is to replace informal booking methods with a **simple, reliable, and transparent online experience**.
 
-Real-time Seat Management: Interactive booking system powered by a Prisma + SQLite backend.
+---
 
-Automated Notifications: Integrated email confirmation workflow for bookings and payments.
+## 🌐 Live Demo
 
-Reviews & Community: A curated system for passenger feedback and service validation.
+Add your deployed link here:
 
-🛠️ Tech Stack
-Frontend
-Framework: Next.js 16 (React 19)
+```
+https://korsa-demo.vercel.app
+```
 
-Styling: Tailwind CSS v4 + shadcn/ui
+---
 
-Icons: Lucide-React
+## ✨ Features
 
-Backend
-Server: Express (Node.js) with TypeScript
+### 🚕 Smart Booking Flow
+A smooth **multi-step booking interface** that allows users to:
 
-Database & ORM: SQLite + Prisma
+- Select departure and destination cities  
+- Choose travel date  
+- Enter passenger information  
+- Confirm booking  
 
-Security & Validation: Zod
+### 💰 Dynamic Price Estimation
+Users receive **instant price estimates** based on the selected route and number of passengers.
 
-🚀 Quick Setup
-Dependencies: npm install (in both root and server folders).
+### 💺 Real-Time Seat Management
+The platform tracks seat availability using a **Prisma + SQLite backend**, ensuring bookings update dynamically.
 
-Database: Run npx prisma migrate dev to initialize the taxi catalog.
+### 📩 Automated Notifications
+Integrated **email confirmations** notify users after:
 
-Launch:
+- Booking creation  
+- Payment confirmation  
 
-npm run dev (Frontend: Port 3000)
+### ⭐ Reviews & Community
+Passengers can leave **reviews and ratings**, helping build trust and maintain service quality.
 
-cd server && npm run dev (Backend: Port 5000)
+---
 
-👤 Author
-Ilyass Lhafi Developed as a modern solution for Moroccan transit.
+## 🧰 Tech Stack
+
+### Frontend
+- **Framework:** Next.js (React)
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Icons:** Lucide React
+
+### Backend
+- **Server:** Express (Node.js) with TypeScript
+- **Database:** SQLite
+- **ORM:** Prisma
+- **Validation:** Zod
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/korsa.git
+cd korsa
+```
+
+### 2. Install dependencies
+
+Frontend:
+
+```bash
+npm install
+```
+
+Backend:
+
+```bash
+cd server
+npm install
+```
+
+---
+
+### 3. Setup the database
+
+Initialize the database using Prisma:
+
+```bash
+npx prisma migrate dev
+```
+
+---
+
+### 4. Run the project
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:3000
+```
+
+Start the backend:
+
+```bash
+cd server
+npm run dev
+```
+
+Backend runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 📌 Project Vision
+
+Korsa aims to bring **digital infrastructure to Morocco’s grand taxi ecosystem**, making intercity travel:
+
+- Easier to access  
+- More organized  
+- More transparent for passengers  
+
+---
+
+## 👨‍💻 Author
+
+**Ilyass Lhafi**  
+Computer Science Student  
+Developed as a modern solution for Moroccan transit.
+
