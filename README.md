@@ -1,6 +1,6 @@
 # 🚖 Korsa
 
-**Korsa** is a full-stack booking platform designed to modernize **intercity travel in Morocco**.  
+**Korsa** is a booking platform designed to modernize **intercity travel in Morocco**.  
 It simplifies the process of finding and booking **grand taxis**, creating a digital bridge between passengers and drivers.
 
 The goal of Korsa is to replace informal booking methods with a **simple, reliable, and transparent online experience**.
@@ -8,7 +8,7 @@ The goal of Korsa is to replace informal booking methods with a **simple, reliab
 ---
 
 ## 🔗 [Live Demo](https://korsa-ma.vercel.app/)
-
+Still in constant developement
 ## ✨ Features
 
 ### 🚕 Smart Booking Flow
